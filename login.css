@@ -1,0 +1,93 @@
+body {
+  font-family: "Segoe UI", "Roboto", Tahoma, sans-serif;
+  padding: 0;
+  color: #fff;
+  font-size: 15px;
+  background-color: #0a071e;
+}
+
+h1 {
+  text-align: center;
+  margin: 80px 0 40px;
+}
+
+label {
+  display: block;
+  margin: 25px 0 10px;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+  transition: all 100ms ease-in-out;
+}
+a:hover {
+  font-style: italic;
+  text-decoration: underline;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+.inputs-flex {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.buttons-flex {
+  width: 300px;
+  height: 40px;
+  margin: 30px auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.link-container {
+  text-align: center;
+}
+
+#email,
+#senha {
+  width: 300px;
+  height: 40px;
+  border-radius: 8px;
+  border: 0;
+}
+
+#submit-button {
+  height: 100%;
+  font-size: 15px;
+  color: #fff;
+  border: 0;
+  border-radius: 8px;
+  background-color: #4591dc;
+  padding: 10px;
+  flex-basis: 1fr;
+  flex-grow: 1;
+  transition: all 100ms ease-in-out;
+}
+#submit-button:hover {
+  background-color: #1d5995;
+  cursor: pointer;
+}
+
+#cadastrar {
+  text-align: center;
+  flex-grow: 1;
+  flex-basis: 1fr;
+}
+
+#question-mark-icon {
+  width: 40px;
+  margin: 5px 10px;
+  transition: all 100ms ease-in-out;
+}
+#question-mark-icon:hover {
+  width: 50px;
+}
