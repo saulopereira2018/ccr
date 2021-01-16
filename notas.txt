@@ -1,0 +1,30 @@
+Tela de "home" com menu : links para lições, prática livre, deixar depoimentos
++Tela de liçoes: apenas a lição 1 habilitada;
++Tela de lição (com o piano e o conteúdo que você mandou o link)
++Tela de lição concluída (com nota)
++Tela de ranking:
++Tela de piano sem lição, apenas para gravar sua música;
++Tela de depoimento com TL de depoimentos escritos;
+
+
+
+<p align="center">
+           <input type="button" id="startButton" value="Dó4" onclick="doo()" >
+           <input type="button" id="startButton" value="Ré4" onclick="re()" >
+           <input type="button" id="startButton" value="Mi4" onclick="mi()" >
+           <input type="button" id="startButton" value="Fa4" onclick="fa()" >
+           <input type="button" id="startButton" value="Sol4" onclick="sol()" >
+           <input type="button" id="startButton" value="Lá4" onclick="la()" >
+           <input type="button" id="startButton" value="Si4" onclick="si()" >
+        </p>
+        <p align="center"><b>Tente executar a sequencia<br>
+                                                        dó-ré-mi-fá-fá-fá<br> 
+                                                        dó-ré-dó-ré-ré-ré <br>
+                                                        dó-sol-fá-mi-mi-mi<br>
+                                                        dó-ré-mi-fá-fá-fá<br>
+                                                        Você acabou de aprender a música Pastorzinho
+                                                    </b>
+        </p>
+        <br><br><br>
+
+

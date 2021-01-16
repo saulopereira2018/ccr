@@ -3,100 +3,20 @@ body {
 }
 
 #navMenu {
-    background-color: black;
+    background-color:#0d131a;
 }
 
 #log {
     font-size: 50px;
-    color: black;
+    color: #0d131a;
     text-align: center;
     margin: 15px;
 }
 
-#carouselExampleCaptions h5,
-p {
-    color: black;
-}
-
-#carouselExampleCaptions img {
-    height: 400px;
-    padding: 0 8% 10% 8%;
-}
-
-.carousel-control-next,
-.carousel-control-prev {
-    filter: invert(100%);
-}
-
-.card img {
-    height: 350px;
-}
-
 footer {
-    background-color: rgb(39, 39, 39);
+    background-color: #0d131a;
 }
 
 footer p {
-    color: #FFFF;
-}
-
-
-/*Página Login*/
-
-#LoginTitulo {
-    font: 35pt Calibri;
-    text-align: center;
-    margin: 30px;
-}
-
-.fieldset {
-    margin: 10% 20% 10% 20%;
-}
-
-.inputTxt {
-    margin-bottom: 20px;
-    width: 98%;
-    height: 30px;
-    font-size: 13pt;
-}
-
-::placeholder {
-    font-size: 13pt;
-    text-align: center;
-    color: rgb(105, 105, 105);
-}
-
-#buttn {
-    width: 60%;
-    height: 40px;
-    margin: 0px 20% 0 20%;
-    background-color: rgb(126, 126, 247);
-    color: white;
-    font-size: 17pt;
-    border-radius: 5px;
-    border: 1px;
-}
-
-#buttn:hover {
-    background-color: rgb(104, 104, 245);
-}
-
-#validar {
-    text-align: center;
-    color: red;
-}
-
-#linkCadastro {
-    text-align: center;
-    margin-top: 15px;
-}
-
-.inputA {
-    font-size: 15pt;
-    margin-bottom: 15px;
-}
-
-#verificar {
-    text-align: center;
-    color: red;
+    color: #fafbfd;
 }

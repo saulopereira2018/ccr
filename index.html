@@ -1,71 +1,41 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="master.css">
-    <!--Bootstrap-->
-    <link rel="stylesheet" type="text/css" media="screen" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" />
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
-    <script src="scripts.js"></script>
-    <title>MusicFrequency</title>
-</head>
-
-<body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Frequência Musical</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
-                </li>
-                
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Login</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-    <div>
-        <p align="center"><b>Seu smart-phone não pode estar em modo econômia de bateria.</b></p>
-        <p align="center"><b>Clique na Frequência para sentir e ouvir o som.</b></p>
-        
-       
-       <p align="center">
-           <input type="button" id="startButton" value="Dó4" onclick="doo()" >
-           <input type="button" id="startButton" value="Ré4" onclick="re()" >
-           <input type="button" id="startButton" value="Mi4" onclick="mi()" >
-           <input type="button" id="startButton" value="Fa4" onclick="fa()" >
-           <input type="button" id="startButton" value="Sol4" onclick="sol()" >
-           <input type="button" id="startButton" value="Lá4" onclick="la()" >
-           <input type="button" id="startButton" value="Si4" onclick="si()" >
-        </p>
-        <p align="center"><b>Tente executar a sequencia<br>
-                                                        dó-ré-mi-fá-fá-fá<br> 
-                                                        dó-ré-dó-ré-ré-ré <br>
-                                                        dó-sol-fá-mi-mi-mi<br>
-                                                        dó-ré-mi-fá-fá-fá<br>
-                                                        Você acabou de aprender a música Pastorzinho
-                                                    </b>
-        </p>
-        <br><br><br>
-    </div>
-
-    
-
-
-    <footer>
-        <p>Contato</p>
-        <p>Saulo Pereira da Silva - Site em construção</p>
-
-    </footer>
-
-</body>
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music Frequency login</title>
+    <link rel="stylesheet" href="login.css" />
+  </head>
+  <body>
+      <a href="grave.html">Vibração</a>
+      <div class="container">
+        <h1><a><img src="images/logo.png" alt="Logo da Music Frequency"></a></h1>
+        <main>
+            <form action="">
+                <div class="inputs-flex">
+                <div class="email-input">
+                    <label for="email">
+                        E-mail:
+                    </label>
+                    <input id="email" type="email" autofocus>
+                </div>
+                <div class="password-input">
+                    <label for="senha">
+                        Senha:
+                    </label>
+                    <input id="senha" type="password">
+                </div>
+                </div>
+                <div class="buttons-flex">
+                    <input type="submit" id="submit-button">
+                    <a href="#" id="cadastrar">Cadastrar<a/>
+                </div>
+            </form>
+            <div class="link-container">
+                <a href="#" id="esqueci-senha">Esqueci a minha senha</a>
+            </div>
+        </main>
+        <footer><a href="#"><img src="images/icone-de-ajuda.png" alt="Ícone de ajuda" id="question-mark-icon"></a></footer>
+      </div>
+  </body>
 </html>
