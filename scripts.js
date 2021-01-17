@@ -1,5 +1,5 @@
 
-    function doo() {
+        function doo() {
         window.navigator.vibrate(15.697,54);
         }
         function re() {
