@@ -84,7 +84,7 @@ footer {
   border: 0;
   border-radius: 8px;
   background-color: #1d5995;
-  padding: 10px;
+  padding: 13px;
   transition: all 100ms ease-in-out;
 }
 .input-type-submit:hover {
