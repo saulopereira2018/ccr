@@ -1,10 +1,13 @@
-#Music Frequency
+#Music Frequency Website
 ##Tabela de Conteúdo
-| Home | Lições | Ranking | Grave | Sua Música | Depoimentos |
+*Home
+*Lições
+*Ranking
+*Grave
+*Sua Música
+*Depoimentos
 ##Sobre
 O site MusicFrequecy consiste em dar acesso ao estudo da música para surdos e público em geral.
-##Tabela de Conteúdo
-Home Lições Ranking Grave sua Música Depoimentos  
 ##Como Usar
 Quando o usuário clica na nota musical, o sistema emite uma vibração que pode ser sentida através de seu smartphone.
 ##Pré-requisitos
