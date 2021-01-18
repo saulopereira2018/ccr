@@ -72,11 +72,6 @@ footer {
   text-align: center;
 }
 
-#logo {
-  width: 100%;
-  text-align: center;
-}
-
 .input-type-submit {
   height: 100%;
   font-size: 15px;
@@ -90,6 +85,16 @@ footer {
 .input-type-submit:hover {
   background-color: #0f4275;
   cursor: pointer;
+}
+
+#logo {
+  width: 100%;
+  text-align: center;
+}
+
+#entrar-button {
+  width: 130px;
+  align-self: flex-start;
 }
 
 #enviar-button {
@@ -118,10 +123,4 @@ footer {
   font-size: 18px;
   text-align: left;
   margin-bottom: 100px;
-}
-
-#entrar-button {
-  margin-top: 40px;
-  width: 130px;
-  align-self: flex-start;
 }
