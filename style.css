@@ -81,6 +81,7 @@ footer {
   background-color: #1d5995;
   padding: 13px;
   transition: all 100ms ease-in-out;
+  width: 130px;
 }
 .input-type-submit:hover {
   background-color: #0f4275;
@@ -93,11 +94,11 @@ footer {
 }
 
 #entrar-button {
-  width: 130px;
   align-self: flex-start;
 }
 
 #enviar-button {
+  margin-top: 40px;
   flex-basis: 1fr;
   flex-grow: 1;
 }
